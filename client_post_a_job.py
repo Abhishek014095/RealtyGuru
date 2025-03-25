@@ -119,7 +119,7 @@ class Find_element_by_job:
 
         submit_button=driver.find_element(By.XPATH,"//button[@type='button'][normalize-space()='Submit']").click()
         time.sleep(10)
-        print("post a job successfully done")
+        print("post AA job successfully done")
 
 testing =Find_element_by_job()
 testing.Details()
