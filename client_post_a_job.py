@@ -84,7 +84,7 @@ class Find_element_by_job:
         file_path=r"C:\Users\HIPL\Downloads\dummy.pdf"
         pyautogui.write(file_path)
         pyautogui.press('enter')
-        print("file uploaded succefully")
+        # print("file uploaded succefully")
         time.sleep(2)
 
         driver.execute_script("window.scrollBy(600,800);")
@@ -119,6 +119,7 @@ class Find_element_by_job:
 
         submit_button=driver.find_element(By.XPATH,"//button[@type='button'][normalize-space()='Submit']").click()
         time.sleep(10)
+        print("post a job successfully done")
 
 testing =Find_element_by_job()
 testing.Details()
